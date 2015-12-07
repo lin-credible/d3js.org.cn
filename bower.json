@@ -1,0 +1,23 @@
+{
+  "name": "d3js.org.cn",
+  "description": "D3.js China Website",
+  "authors": [
+    "https://github.com/VisualCrew/d3js.org.cn/graphs/contributors"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "D3.js",
+    "China"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

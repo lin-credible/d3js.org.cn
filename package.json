@@ -1,16 +1,56 @@
-﻿{
-"name":"CassttePlayer",
-"private":true,
- "version":"0.0.1",
- "dependencies":{
-  "express":"^4.9.5",
-  "body-parser":"1.9.2",
-  "compression":"1.2.0",
-  "cookie-parser":"1.3.3",
-  "express-session":"1.9.1",
-  "method-override":"1.0.2",
-  "serve-favicon":"^2.0.1",
-  "errorhandler":"^1.1.1",
-  "morgan":"*"
- }
+{
+  "name": "d3js.org.cn",
+  "version": "1.0.0",
+  "description": "D3.js China Website",
+  "private": true,
+  "scripts": {
+    "start": "node server",
+    "test": "gulp test",
+    "postinstall": "bower install --config.interactive=false;gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VisualCrew/d3js.org.cn.git"
+  },
+  "keywords": [
+    "D3.js",
+    "China"
+  ],
+  "author": "https://github.com/VisualCrew/d3js.org.cn/graphs/contributors",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/VisualCrew/d3js.org.cn/issues"
+  },
+  "homepage": "https://github.com/VisualCrew/d3js.org.cn",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "bower": "^1.6.8",
+    "chalk": "^1.1.1",
+    "compression": "^1.6.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^0.8.2",
+    "consolidate": "^0.13.1",
+    "cookie-parser": "~1.3.5",
+    "crypto": "0.0.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-session": "^1.12.1",
+    "file-stream-rotator": "0.0.6",
+    "glob": "^6.0.1",
+    "gulp": "^3.9.0",
+    "helmet": "^0.15.0",
+    "jade": "~1.11.0",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.2.8",
+    "morgan": "~1.6.1",
+    "passport": "^0.3.2",
+    "serve-favicon": "^2.3.0",
+    "socket.io": "^1.3.7",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp-load-plugins": "^1.1.0",
+    "run-sequence": "^1.1.5"
+  }
 }

@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/VisualCrew/d3js.org.cn.svg?branch=hueidou)](https://travis-ci.org/VisualCrew/d3js.org.cn)
+[![Dependencies Status](https://david-dm.org/VisualCrew/d3js.org.cn.svg)](https://david-dm.org/VisualCrew/d3js.org.cn)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/VisualCrew/d3js.org.cn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # d3js.org.cn(D3中文网)
 
 ## 主题
